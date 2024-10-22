@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="enter city name" spellcheck="false" />
+        <button><img src="Assets/search.png" alt="" /></button>
+      </div>
+      <div class="error">
+        <p>Invalid city name</p>
+      </div>
+      <div class="weather">
+        <div class="Info">
+          <div class="col-1">
+            <div>
+              <div class="location">
+                <h2 class="city"></h2>
+                <span> </span>
+              </div>
+
+              <p class="description"></p>
+            </div>
+            <h1 class="temp"></h1>
+          </div>
+          <div>
+            <img src="Assets//drizzle.png" alt="" class="weather-icon" />
+          </div>
+        </div>
+
+        <div class="details">
+          <div class="col">
+            <!-- <img src="Assets/humidity.png" alt="" /> -->
+            <div>
+              <p class="title">Humidity</p>
+              <p class="humidity value">50%</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <!-- <img src="Assets/wind.png" alt="" /> -->
+
+            <p class="title">Wind Speed</p>
+            <p class="wind value">50%</p>
+          </div>
+          <div class="col">
+            <img src="" alt="" />
+
+            <p class="title">Atm Pressure</p>
+            <p class="pressure value">1013 KPa</p>
+          </div>
+          <div class="col">
+            <div>
+              <p class="title">Sunlight</p>
+              <p class="wind value">50%</p>
+            </div>
+          </div>
+          <div class="col">
+            <p class="title">Expexcted Min/Max temp</p>
+            <div class="temp">
+              <div class="exp">
+                <p>Min temp:</p>
+                <div class="min value"></div>
+              </div>
+              <div class="exp">
+                <p>Max temp:</p>
+                <div class="max value"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
